@@ -15,6 +15,7 @@
 |
 */
 
+
 /*-----------------------------------------------------------
 * You can either set the bas_url to http://localhost/marketing/ 
 * or you can just left it empty and let CodeIgniter engine 
@@ -23,6 +24,8 @@
 
 $config['base_url']	= '';
 $config['limit']	= 2; //default limit for paging is 2, change it your way
+
+
 
 /*
 |--------------------------------------------------------------------------

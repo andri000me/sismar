@@ -14,6 +14,7 @@
 | path to your installation.
 |
 */
+<<<<<<< HEAD
 
 /*-----------------------------------------------------------
 * You can either set the bas_url to http://localhost/marketing/ 
@@ -23,6 +24,10 @@
 
 $config['base_url']	= '';
 $config['limit']	= 2; //default limit for paging is 2, change it your way
+=======
+$config['base_url']	= '';
+$config['limit']	= 2;
+>>>>>>> 44f987fe95f6863c2a9a46d69f23b841f720b38c
 
 /*
 |--------------------------------------------------------------------------
