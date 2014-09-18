@@ -185,18 +185,18 @@ class Privilege_model extends CI_Model{
 						'name'=>'Jobdesk',
 						'anak'=> array(
 
-						        array(
+					        array(
+				
+				            'const'=>'QUOTATION',
+					        'name'=>'Quotation',
 					
-					            'const'=>'QUOTATION',
-						        'name'=>'Quotation',
-						
-					           ),
-					           array(
+				           ),
+				           array(
+				
+				            'const'=>'PROJECT_LIST',
+					        'name'=>'Project Llist',
 					
-					            'const'=>'PROJECT_LIST',
-						        'name'=>'Project Llist',
-						
-					           ),
+				           ),
 					    )
 						
 					),
