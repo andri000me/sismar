@@ -22,7 +22,7 @@
 * autodetect it 
 *------------------------------------------------------------------*/
 
-$config['base_url']	= '';
+$config['base_url']	= 'http://localhost/marketing/';
 $config['limit']	= 2; //default limit for paging is 2, change it your way
 
 
