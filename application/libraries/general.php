@@ -6,12 +6,15 @@
 class General {
 
 	private $obj = NULL;
-        function __construct() {
+	
+        public function __construct()
+	{
 		
 		$this->obj= & get_instance();
 	}
 	
-	function privilege_check($page_id, $do = null){
+	public function privilege_check($page_id, $do = null)
+	{
 	
 		$sql = "SELECT * FROM user a, akses_user b 
 				WHERE 
@@ -27,7 +30,8 @@ class General {
 			return false; 
 	}
 	
-	public function no_access(){
+	public function no_access()
+	{
 	    
 	    redirect('no_access');
 	}
